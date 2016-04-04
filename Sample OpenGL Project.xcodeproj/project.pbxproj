@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F68A6B661CB31674003C4EDD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F68A6B651CB31674003C4EDD /* main.c */; };
+		F68A6B6D1CB3187C003C4EDD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68A6B6C1CB3187C003C4EDD /* Cocoa.framework */; };
+		F68A6B6F1CB31886003C4EDD /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68A6B6E1CB31886003C4EDD /* GLUT.framework */; };
+		F68A6B711CB3188C003C4EDD /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68A6B701CB3188C003C4EDD /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,10 @@
 /* Begin PBXFileReference section */
 		F68A6B621CB31674003C4EDD /* Sample OpenGL Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sample OpenGL Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68A6B651CB31674003C4EDD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F68A6B6C1CB3187C003C4EDD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F68A6B6E1CB31886003C4EDD /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		F68A6B701CB3188C003C4EDD /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F68A6B721CB31A0C003C4EDD /* hw5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hw5.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +39,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F68A6B711CB3188C003C4EDD /* OpenGL.framework in Frameworks */,
+				F68A6B6F1CB31886003C4EDD /* GLUT.framework in Frameworks */,
+				F68A6B6D1CB3187C003C4EDD /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +51,9 @@
 		F68A6B591CB31674003C4EDD = {
 			isa = PBXGroup;
 			children = (
+				F68A6B701CB3188C003C4EDD /* OpenGL.framework */,
+				F68A6B6E1CB31886003C4EDD /* GLUT.framework */,
+				F68A6B6C1CB3187C003C4EDD /* Cocoa.framework */,
 				F68A6B641CB31674003C4EDD /* Sample OpenGL Project */,
 				F68A6B631CB31674003C4EDD /* Products */,
 			);
@@ -58,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				F68A6B651CB31674003C4EDD /* main.c */,
+				F68A6B721CB31A0C003C4EDD /* hw5.h */,
 			);
 			path = "Sample OpenGL Project";
 			sourceTree = "<group>";
